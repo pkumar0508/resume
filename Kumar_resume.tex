@@ -1,0 +1,110 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% Original author: Trey Hunner (http://www.treyhunner.com/)
+% This template has been downloaded from http://www.LaTeXTemplates.com
+% Modified for use by Prashant Kumar
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------
+
+\documentclass{resume}
+
+\usepackage[left=0.75in,top=0.75in,right=0.75in,bottom=0.75in]{geometry}
+
+\name{Prashant Kumar} % Your name
+\address{2219 Woodmont Dr, Export, PA 15632}
+%\address{123 Pleasant Lane \\ City, State 12345} % 2nd address optional
+\address{(412) 580 9826 \\ pkumar0508@gmail.com} % phone and email
+
+\begin{document}
+
+%----------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------
+
+\begin{rSection}{Technical Skills}
+Matlab, C++, Python, Numpy, Mercurial, Unix, SQL, R, Groovy \\
+Active Stack Overflow contributor; AIME qualifier; Project Euler participant
+\end{rSection}
+
+%----------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+%------------------------------------------------
+
+\begin{rSubsection}{TFS Capital}{West Chester, PA}
+{Quantitative Analyst and Developer}{2013 -- Present}
+
+\item Estimated performance of hedge fund strategies
+by testing historical time series data in Matlab
+\item Calibrated convertible bond PDE models with historical
+multi-dimensional data to price bonds \\ and evaluate
+risk exposures for hedging in Excel and Matlab as the
+first bond analyst at the firm
+\item Researched volatility investments, becoming the subject matter
+expert; communicated the \\ tail risks associated with variance swaps
+and options, resulting in an allocation by the fund
+\item Wrote unit tests and verified intended behavior of proposed
+production trading code for \\ futures contracts; advised peers on
+distributed version control system and continuous integration
+\item Improved futures execution for expected savings of over
+270 basis points annually on \$65MM AUM
+
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Vanguard}{Malvern, PA}
+{Software Engineer}{2012 -- 2013}
+\item Resolved Axioma and MarketQA production issues for global
+equity business of \$1T+
+\item Presented Groovy for enterprise to senior staff,
+resulting in company-wide language adoption
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{University of Pittsburgh}{Pittsburgh, PA}
+{Graduate\slash Undergraduate Research Assistant}{2006 -- 2011}
+\item Performed scientific calculations on high-performance distributed
+computing clusters and GPUs
+\item Automated analysis routines in Matlab and Python
+to process 100+ GB of simulation data
+\item Tested, verified, and extended C++ Lattice Boltzmann engine to
+approximate solutions to the \\ Navier-Stokes fluid flow partial
+differential equation, resulting in publication in J R Soc Interface
+\item Simulated flow of salt water and gas mixtures
+through carbon nanotubes using molecular \\ dynamics and calculated
+electrostatic distributions using density functional theory techniques
+\item Replaced single-threaded molecular dynamics engine with LAMMPS
+to leverage MPI, OpenMP, \\ and CUDA technologies;
+wrote reusable trajectory post-processing scripts in Python
+\item Disproved pharmacokinetic model structures by fitting
+parameters to mice data using Matlab
+\end{rSubsection}
+
+%------------------------------------------------
+
+\end{rSection}
+
+%----------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------
+
+\begin{rSection}{Education}
+{\bf Certificate in Quantitative Finance} \hfill {2011 -- 2012} \\
+{\bf University of Pittsburgh} \\ 
+Master of Science in Chemical Engineering \hfill {2008 -- 2011} \\
+Bachelor of Science in Chemical Engineering \hfill {2005 -- 2008}
+\end{rSection}
+
+\end{document}
