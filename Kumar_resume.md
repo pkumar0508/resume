@@ -1,7 +1,6 @@
 Prashant Kumar
 =============
 
-2219 Woodmont Dr, Export PA 15632  
 (412) 580-9826  
 `pkumar0508@gmail.com`
 
