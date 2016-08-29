@@ -9,53 +9,69 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%----------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------
+%---------------------------------------------------------------
+%   PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%---------------------------------------------------------------
 
 \documentclass{resume}
 
-\usepackage[left=0.75in,top=0.75in,right=0.75in,bottom=0.75in]{geometry}
+\usepackage[left=1.0in,top=0.75in,
+            right=0.75in,bottom=0.75in
+            ]{geometry}
 
 \name{Prashant Kumar} % Your name
 \address{(412) 580 9826 \\ pkumar0508@gmail.com} % phone and email
 
 \begin{document}
 
-%----------------------------------------------------------------------
-%	TECHNICAL STRENGTHS SECTION
-%----------------------------------------------------------------------
+%---------------------------------------------------------------
+%   TECHNICAL STRENGTHS SECTION
+%---------------------------------------------------------------
 
 \begin{rSection}{Technical Skills}
-Matlab, C++, Python, Numpy, Mercurial, Unix, SQL, R, Groovy \\
-Active Stack Overflow contributor; AIME qualifier; Project Euler participant
+C++, Python, Git, Matlab, Unix, SQL, Numpy
 \end{rSection}
 
-%----------------------------------------------------------------------
-%	WORK EXPERIENCE SECTION
-%----------------------------------------------------------------------
+%---------------------------------------------------------------
+%   WORK EXPERIENCE SECTION
+%---------------------------------------------------------------
 
 \begin{rSection}{Experience}
 
 %------------------------------------------------
 
+\begin{rSubsection}{Bloomberg LP}{New York, NY}
+{Senior Software Development Engineer}{2015 -- Present}
+
+%\item created FIRM UI, assistent with testing
+\item Designed workflows for profit/loss calculations to improve
+trading platform's transparency
+%\item cash/position breaks
+\item Guided an intern to create components usable in current and
+planned system architecture
+\item Created UI for business users to input calculation rules
+for financial values and output to file
+\item Coded calculation engine in C++ taking rules and values as
+input and returning calculated values
+\item Prototyped persistent data structure for trade history
+allowing for out-of-order event recording
+\item Assisted in critical production issues in legacy codebase directly affecting clients' ability to trade
+\item Proposed deprecation strategy for use of unsupported
+database APIs in firm-wide code repository
+\item Instructed coworkers on use of Git and other firm-wide
+recommended best practices (e.g. packaging)
+
+\end{rSubsection}
+
 \begin{rSubsection}{TFS Capital}{West Chester, PA}
-{Quantitative Analyst and Developer}{2013 -- Present}
+{Quantitative Analyst and Developer}{2013 -- 2015}
 
 \item Coded unit tests to verify behavior of production futures
 trading code in object-oriented Matlab
-\item Patched and documented Java financial ticker mapping process
-issue impacting \$1B+ trading desk
-\item Developed SQL Server stored procedures directly supporting
-daily trading desk needs
-\item Extended automated Perl script to pull economic data and
-adjust client-facing website fund statistics
 \item Calibrated convertible bond PDE models with historical
 multi-dimensional data to price bonds and evaluate risk exposures
-for hedging in Excel and Matlab as the first bond analyst at the firm
-\item Researched volatility investments, becoming the subject
-matter expert; communicated the tail risks associated with variance
-swaps and options, resulting in an allocation by the fund
+for hedging in Excel and Matlab as the first bond analyst
+at the firm
 \item Improved futures execution for expected savings of over
 270 basis points annually on \$65MM AUM
 
@@ -80,19 +96,18 @@ equity business of \$1T+
 \begin{rSubsection}{University of Pittsburgh}{Pittsburgh, PA}
 {Graduate\slash Undergraduate Research Assistant}{2006 -- 2011}
 
-\item Performed scientific calculations on high-performance distributed
-computing clusters and GPUs
 \item Automated analysis routines in Matlab and Python
 to process 100+ GB of simulation data
-\item Tested, verified, and extended C++ Lattice Boltzmann engine to
-approximate solutions to the \\ Navier-Stokes fluid flow partial
-differential equation, resulting in publication in J R Soc Interface
+\item Replaced non-parallel molecular dynamics engine
+with LAMMPS to leverage MPI, OpenMP, CUDA
+\item Tested, verified, and extended C++ Lattice Boltzmann engine
+to approximate solutions to the \\ Navier-Stokes fluid flow
+partial differential equation, resulting in publication in J R
+Soc Interface
 \item Simulated flow of salt water and gas mixtures
-through carbon nanotubes using molecular dynamics and calculated
-electrostatic distributions using density functional theory techniques
-\item Replaced single-threaded molecular dynamics engine with LAMMPS
-to leverage MPI, OpenMP, and CUDA technologies;
-wrote reusable trajectory post-processing scripts in Python
+through carbon nanotubes using molecular dynamics and
+calculated electrostatic distributions using density
+functional theory techniques
 \item Disproved pharmacokinetic model structures by fitting
 parameters to mice data using Matlab
 
@@ -100,15 +115,18 @@ parameters to mice data using Matlab
 
 \end{rSection}
 
-%----------------------------------------------------------------------
-%	EDUCATION SECTION
-%----------------------------------------------------------------------
+%---------------------------------------------------------------
+%   EDUCATION SECTION
+%---------------------------------------------------------------
 
-\begin{rSection}{Education}
-{\bf Certificate in Quantitative Finance} \hfill {2011 -- 2012} \\
+\begin{rSection}{Education and Interests}
 {\bf University of Pittsburgh} \\ 
-Master of Science in Chemical Engineering \hfill {2008 -- 2011} \\
-Bachelor of Science in Chemical Engineering \hfill {2005 -- 2008}
+Master of Science in Chemical Engineering
+\hfill {2008 -- 2011} \\
+Bachelor of Science in Chemical Engineering
+\hfill {2005 -- 2008} \\ \\
+Stack Overflow contributor;
+AIME qualifier; Project Euler participant
 \end{rSection}
 
 \end{document}
