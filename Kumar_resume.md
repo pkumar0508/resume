@@ -41,7 +41,7 @@ best practices (e.g. packaging)
 #### TFS Capital
 Quantitative Analyst and Developer  
 West Chester, PA  
-2013 -- Present
+2013 -- 2015
 
 - Coded unit tests to verify behavior of production futures trading
 code in object-oriented Matlab
