@@ -17,7 +17,7 @@ Prashant Kumar
 
 #### Bloomberg LP
 Senior Software Development Engineer  
-New York, NJ  
+New York, NY  
 2015 -- Present
 
 - Designed workflows for profit/loss calculations to improve
